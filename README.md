@@ -28,16 +28,17 @@ To get a local copy up and running follow these simple steps, then follow the in
 
 ### Setup and Install
 
-* Open your terminal - Windows: Win + R, then type cmd | Mac: Command + space, then type Terminal
+* Open your terminal - Windows: `Win + R`, then type cmd | Mac: `Command + space`, then type Terminal
 * Navigate to a directory of your choosing using the cd command
-* Run this command in your OS terminal: git clone git@github.com:promise-J/micro-reddit.git to get a copy of the project.
-* Navigate to the project's directory using the cd command.
-* Run  bundle install to install all the required gems needed for the project.
-* Since DB has already been created, you need to migrate to the DB telling the rails app to establish a connection to run
-* Execute rails console to load the development environment by running rails console or rails c for short.
-* Run User.all to see all the users in the database.
+* Run this command in your OS terminal: `git clone git@github.com:promise-J/micro-reddit.git` to get a copy of the project.
+* Navigate to the project's directory using the `cd` command
+* Run `rails webpacker:install` to configure Webpacker for your environment. Otherwise, an error like `Webpacker::Manifest::MissingEntryError` will appear if you attempt to run the server.
+* Install dependencies by running `bundle install`
+* Migrate the database to your environment by running `rails db:migrate`
+* Execute rails console to load the development environment by running `rails console` or `rails c` for short.
+* Run `User.all` to see all the users in the database
 * (optional: play around with the console by adding post and also comments for each post under various users)
-* End the rails console environment by running exit(1).
+* End the rails console environment by running `exit(1)`
 
 
 ### Usage
@@ -56,7 +57,7 @@ All actions are executed from the Ruby Console. Users can be created as long as 
 👤 **German Cobian**
 
 * GitHub: [@German-Cobian](https://github.com/German-Cobian)
-* Twitter: [@GermanCobian3](https://twitter.com/GermanCobian3)
+* Twitter: [@GermanCobian1](https://twitter.com/GermanCobian1)
 * LinkedIn: [@german-cobian](https://www.linkedin.com/in/german-cobian/)
 
 
@@ -71,8 +72,8 @@ Give a ⭐️ if you like this project!
 
 
 ## Acknowledgments
-* Microverse
-* The Odin Project
+
+Guidelines for this project supplied by [The Odin Project](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/building-with-active-record-ruby-on-rails)
 
 
 ## 📝 License
