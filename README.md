@@ -37,9 +37,8 @@ To get a local copy up and running follow these simple steps, then follow the in
 * Install dependencies by running `bundle install`
 * Migrate the database to your environment by running `rails db:migrate`
 * Execute rails console to load the development environment by running `rails console` or `rails c` for short.
-* Run `User.all` to see all the users in the database
-* (optional: play around with the console by adding post and also comments for each post under various users)
-* End the rails console environment by running `exit(1)`
+* Play around with the console by adding users, and then posts and also comments for each post under various users
+* End the rails console environment by running `exit`
 
 
 ### Usage
