@@ -1,11 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Micro-reddit
+# CLI-Blog-App
 
-An app which allows users to register, then post articles and also comment other user's posts, emmulating the function of the well-known Reddit web page.
+An blog app which operates purely from the CLI (Command Line Interface) allowing users to register, then post articles and also comment other user's posts.
 
-This project lets us practice model creation and their associations in order to get a full understanding of Active Record. The project itself is a CLI (Command Line Interface) of the Reddit blog.
+![Data entries](/app/assets/images/Data-entries.png?raw=true "Data entries")
 
+This project is an exercise in active record (the M in MVC - the model - which is the layer of the system responsible for representing business data and logic): model creation and their association.
 
 ## Built With
 *  Ruby
@@ -30,9 +31,9 @@ To get a local copy up and running follow these simple steps, then follow the in
 
 * Open your terminal - Windows: `Win + R`, then type cmd | Mac: `Command + space`, then type Terminal
 * Navigate to a directory of your choosing using the cd command
-* Run this command in your OS terminal: `git clone git@github.com:promise-J/micro-reddit.git` to get a copy of the project.
+* Run this command in your OS terminal: `git clone git@github.com:German-Cobian/CLI-Blog-App.git` to get a copy of the project.
 * Navigate to the project's directory using the `cd` command
-* Run `rails webpacker:install` to configure Webpacker for your environment. Otherwise, an error like `Webpacker::Manifest::MissingEntryError` will appear if you attempt to run the server.
+* Run `rails webpacker:install` to configure Webpacker for your environment
 * Install dependencies by running `bundle install`
 * Migrate the database to your environment by running `rails db:migrate`
 * Execute rails console to load the development environment by running `rails console` or `rails c` for short.
@@ -73,9 +74,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Guidelines for this project supplied by [The Odin Project](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/building-with-active-record-ruby-on-rails)
+Guidelines for this project supplied by [The Odin Project](https://www.theodinproject.com/lessons/ruby-on-rails-micro-reddit)
 
 
 ## 📝 License
 
-This project is [MIT](https://github.com/promise-J/micro-reddit/blob/micro-reddit-feature/LICENSE) licensed.
+This project is [MIT](https://github.com/German-Cobian/CLI-Blog-App/blob/main/LICENSE) licensed.
