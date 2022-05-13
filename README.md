@@ -1,11 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Micro-reddit
+# CLI-Blog-App
 
-An app which allows users to register, then post articles and also comment other user's posts, emmulating the function of the well-known Reddit web page.
+An blog app which operates purely from the CLI (Command Line Interface) allowing users to register, then post articles and also comment other user's posts.
 
-This project lets us practice model creation and their associations in order to get a full understanding of Active Record. The project itself is a CLI (Command Line Interface) of the Reddit blog.
+![Data entries](/app/assets/images/Data-entries.png?raw=true "Data entries")
 
+This project is an exercise in active record (the M in MVC - the model - which is the layer of the system responsible for representing business data and logic): model creation and their association.
 
 ## Built With
 *  Ruby
@@ -28,16 +29,16 @@ To get a local copy up and running follow these simple steps, then follow the in
 
 ### Setup and Install
 
-* Open your terminal - Windows: Win + R, then type cmd | Mac: Command + space, then type Terminal
+* Open your terminal - Windows: `Win + R`, then type cmd | Mac: `Command + space`, then type Terminal
 * Navigate to a directory of your choosing using the cd command
-* Run this command in your OS terminal: git clone git@github.com:promise-J/micro-reddit.git to get a copy of the project.
-* Navigate to the project's directory using the cd command.
-* Run  bundle install to install all the required gems needed for the project.
-* Since DB has already been created, you need to migrate to the DB telling the rails app to establish a connection to run
-* Execute rails console to load the development environment by running rails console or rails c for short.
-* Run User.all to see all the users in the database.
-* (optional: play around with the console by adding post and also comments for each post under various users)
-* End the rails console environment by running exit(1).
+* Run this command in your OS terminal: `git clone git@github.com:German-Cobian/CLI-Blog-App.git` to get a copy of the project.
+* Navigate to the project's directory using the `cd` command
+* Run `rails webpacker:install` to configure Webpacker for your environment
+* Install dependencies by running `bundle install`
+* Migrate the database to your environment by running `rails db:migrate`
+* Execute rails console to load the development environment by running `rails console` or `rails c` for short.
+* Play around with the console by adding users, and then posts and also comments for each post under various users
+* End the rails console environment by running `exit`
 
 
 ### Usage
@@ -56,7 +57,7 @@ All actions are executed from the Ruby Console. Users can be created as long as 
 👤 **German Cobian**
 
 * GitHub: [@German-Cobian](https://github.com/German-Cobian)
-* Twitter: [@GermanCobian3](https://twitter.com/GermanCobian3)
+* Twitter: [@GermanCobian1](https://twitter.com/GermanCobian1)
 * LinkedIn: [@german-cobian](https://www.linkedin.com/in/german-cobian/)
 
 
@@ -71,10 +72,10 @@ Give a ⭐️ if you like this project!
 
 
 ## Acknowledgments
-* Microverse
-* The Odin Project
+
+Guidelines for this project supplied by [The Odin Project](https://www.theodinproject.com/lessons/ruby-on-rails-micro-reddit)
 
 
 ## 📝 License
 
-This project is [MIT](https://github.com/promise-J/micro-reddit/blob/micro-reddit-feature/LICENSE) licensed.
+This project is [MIT](https://github.com/German-Cobian/CLI-Blog-App/blob/main/LICENSE) licensed.
